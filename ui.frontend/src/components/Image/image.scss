@@ -1,0 +1,17 @@
+.banner {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 1024px) {
+  .banner {
+    &__figure {
+      margin-left: 0;
+    }
+    &__img {
+      width: 540px;
+      height: 452px;
+    }
+  }
+}

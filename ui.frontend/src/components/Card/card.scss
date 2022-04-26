@@ -1,0 +1,32 @@
+.card {
+  font-family: 'Space Mono', monospace;
+  &__title {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 4.438rem;
+    letter-spacing: -0.035em;
+    color: #333333;
+  }
+  &__description {
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.688rem;
+    letter-spacing: -0.035em;
+    color: #4f4f4f;
+  }
+  &__button {
+    margin-top: 3rem;
+    width: 13.5rem;
+    height: 4.25rem;
+    background: #333333;
+    border: none;
+  }
+  &__button-title {
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1.313rem;
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+}
